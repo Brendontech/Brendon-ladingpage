@@ -168,6 +168,9 @@
     .intro-content, .grid{
         grid-template-columns: 1fr;
     }
+    H2 {
+        font-size: 4.5rem;
+    }
     .gallery-img {
         width: 100%;
         max-width: 100%;
@@ -218,5 +221,16 @@
     }
     .menu-spacing {
         display: none;
+    }
+}
+@media (max-width: 320px) {
+    .close-menu-label::after {
+        right: 0;
+        padding: 0;
+    }
+    .back-to-top{
+        width: 3rem;
+        height: 3rem;
+        right: 0;
     }
 }
